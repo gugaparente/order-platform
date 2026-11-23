@@ -1,0 +1,31 @@
+version = 1
+revision = 5
+requires-python = ">=3.13"
+
+[manifest]
+members = [
+    "notification-worker",
+    "order-platform",
+    "order-worker",
+    "orders-api",
+]
+
+[[package]]
+name = "notification-worker"
+version = "0.1.0"
+source = { virtual = "services/notification-worker" }
+
+[[package]]
+name = "order-platform"
+version = "0.1.0"
+source = { virtual = "." }
+
+[[package]]
+name = "order-worker"
+version = "0.1.0"
+source = { virtual = "services/order-worker" }
+
+[[package]]
+name = "orders-api"
+version = "0.1.0"
+source = { virtual = "services/orders-api" }

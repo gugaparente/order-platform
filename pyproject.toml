@@ -1,0 +1,13 @@
+[project]
+name = "order-platform"
+version = "0.1.0"
+description = "Plataforma de pedidos orientada a eventos"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "services/orders-api",
+    "services/order-worker",
+    "services/notification-worker",
+]

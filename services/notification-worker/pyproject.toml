@@ -1,0 +1,6 @@
+[project]
+name = "notification-worker"
+version = "0.1.0"
+description = "Worker que registra notificações para o usuário"
+requires-python = ">=3.13"
+dependencies = []

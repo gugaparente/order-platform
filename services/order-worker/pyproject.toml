@@ -1,0 +1,6 @@
+[project]
+name = "order-worker"
+version = "0.1.0"
+description = "Worker que consome order.created e simula o pagamento"
+requires-python = ">=3.13"
+dependencies = []
